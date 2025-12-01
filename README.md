@@ -22,6 +22,8 @@ This lab simulated a secure network connection by;
 
 ## Steps
 
+You can run provided script to automate the process or follow the steps given here.
+
 ### 1. Configure Server Machine
 #### 1.1 Setup the OpenVPN server
 Install required packages
@@ -223,3 +225,13 @@ Then we can use following commands;
   - Using correct user names and password we can access file suing `smbclient //<----server-tun0-ip--->/<file> -U <username>` (as example `smbclient //10.8.0.1/Finance -U Sunil`)
   - We can use command like ls to list down files, put and get to file download and upload.
   - Also we can mount the shared folder using `sudo mount -t cifs //<----server-tun0-ip--->/<file> <mounting_directory> -o username=<username>,password=<password>`
+
+## Features
+
+- Encrypted access to shared folder via OpenVPN
+- Samba share with configurable permissions
+- Realistic secure remote-access environment
+
+## Summary
+
+This is small lab which demostrate how implement secure remote file share using oprnVPN and smb server with UFW.
