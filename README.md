@@ -18,7 +18,7 @@ This lab simulated a secure network connection by;
 
 ## Lab Topology
 
-[Image]
+![Diagram](Diagram/Topology.png)
 
 ## Steps
 
