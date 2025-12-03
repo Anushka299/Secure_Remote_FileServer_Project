@@ -22,6 +22,8 @@ This lab simulated a secure network connection by;
 
 ## Steps
 
+##### You can automate these configurations by running the scripts I provided.
+
 ### 1. Configure Server Machine
 #### 1.1 Setup the OpenVPN server
 Install required packages
